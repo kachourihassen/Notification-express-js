@@ -75,11 +75,7 @@ var requestLoop = setInterval(function(){
 
             cryptoname.forEach(function(namecry) { 
                   //console.log("cryptoname ///****/****//***" ,Number(Math.abs(customer["data"][namecry].percent_change_24h.toFixed(20)) ));
-                    if(Number((Math.abs(customer["data"][namecry].percent_change_24h.toFixed(20)) - Math.abs((oldarray[i]))))>=Number(2) 
-                       || 
-                      (Math.abs(customer["data"][namecry].percent_change_24h.toFixed(20)) >= (Math.abs((oldarray[i]))+2)) 
-                      || 
-                      (Math.abs(customer["data"][namecry].percent_change_24h.toFixed(20)) <= (Math.abs((oldarray[i]))-2))) 
+                    if(Math.abs(Number((customer["data"][namecry].percent_change_24h.toFixed(20)) - (oldarray[i])))>=Number(2)) 
                     {
                         console.log('true');
                         oldarray[i] =  customer["data"][namecry].percent_change_24h.toFixed(20) ;
