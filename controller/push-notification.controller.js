@@ -205,3 +205,6 @@ exports.saveUserToken  = (req, res ,next) => {
 })
         console.log("file to the array ",array);
 }
+exports.chatqr  = (req, res ,next) => {
+        console.log("Socket io running ");
+}
