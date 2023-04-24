@@ -9,7 +9,7 @@ var io = require("socket.io")(server);
  
 
 
-const Port1 = process.env.Port || 6000;
+const Port1 = process.env.Port || 5000;
 app.use(express.json());
 //app.use(cors());
 var clients={};
@@ -34,8 +34,8 @@ server.listen(Port1,"0.0.0.0",()=>console.log(`Server OI started  on port ${Port
  );
 
 
-router.post('/send-notification' , pushNotificationController.sendPushNotification);
-router.post('/save-token' , pushNotificationController.saveUserToken);
+//router.post('/send-notification' , pushNotificationController.sendPushNotification);
+//router.post('/save-token' , pushNotificationController.saveUserToken);
 router.post('/connectqr' , pushNotificationController.chatqr);
 
 

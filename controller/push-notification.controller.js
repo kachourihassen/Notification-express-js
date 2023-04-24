@@ -204,7 +204,7 @@ exports.saveUserToken  = (req, res ,next) => {
     return array.indexOf(elem) == pos;
 })
         console.log("file to the array ",array);
-}
+} 
 exports.chatqr  = (req, res ,next) => {
         console.log("Socket io running ");
 }
