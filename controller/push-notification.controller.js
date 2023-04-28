@@ -15,8 +15,6 @@ oldarray=[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0];
 notiflistname=[];
 notiflistprice=[];
 array = ['eJVKuG6yToOMnwyk7q0O6c:APA91bFLSv1MCfa21L3db7DfWRmKG6_Qe3d2LrsIyj05eyf8eEJbKIvg91C6D0JBgkLfcKdQehWAgkRkaUNvjTQcSpx_-271OISTm_bUJwfjFh3YD3uXM2qMI0SW7kb76xgC8Tk3x8pi',
-  'ed9oKayNSLWHMO0BcesITT:APA91bFMIUy-S6Q4uTEs4Hz9jaz404XwqgbqM04x8p7D3qYiXXMMjdayBbTgJqSOsQ5MwXaGkrzjCsZ6H6F5OqUTSlwhdN2LlrRIs5gmPh8pT8FFNJF8PGv2piqLRlZ2Cv43Omk5cV78',
-  'dOTjx635RL6uq3205xX8Bq:APA91bG2ueUQ4oQuVHJLQV3DvdL91_iZx1a1s0_wz5wvjFUD2bdOYLPVPkDS-9oiK5HOuyRUVzIgvNmayM7YSBKOnGUdsiBNBeWUEoae2PsN8xeRgMrPXRwUDUx_8_gqdNVRU073mmuL'
 ];
 
 //Premier point : Remplissage de la list des oldarray
